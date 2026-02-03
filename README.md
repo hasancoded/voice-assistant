@@ -119,31 +119,31 @@ docker run -p 8080:8080 -e GEMINI_API_KEY=your_key voice-assistant
 ```
 voice-assistant/
 ├── src/
-│   ├── app.py                # Main Flask application
-│   ├── config.py             # Configuration management
+│   ├── app.py                    # Main Flask application
+│   ├── config.py                 # Configuration management
 │   ├── routes/
-│   │   ├── main.py           # Main page and health check routes
-│   │   └── api.py            # API endpoints
+│   │   ├── main.py               # Main page and health check routes
+│   │   └── api.py                # API endpoints
 │   ├── services/
-│   │   ├── ai_service.py     # Google Gemini integration
-│   │   ├── speech_service.py # Speech-to-text service
-│   │   └── tts_service.py    # Text-to-speech service
+│   │   ├── ai_service.py         # Google Gemini integration
+│   │   ├── speech_service.py     # Speech-to-text service
+│   │   └── tts_service.py        # Text-to-speech service
 │   └── utils/
-│       └── logger.py         # Logging configuration
+│       └── logger.py             # Logging configuration
 ├── templates/
-│   └── index.html            # Main HTML page
+│   └── index.html                # Main HTML page
 ├── static/
 │   ├── css/
-│   │   └── style.css         # Styling
+│   │   └── style.css             # Styling
 │   └── js/
-│       └── script.js         # Frontend JavaScript
-├── tests/                    # Test files
-├── scripts/                  # Utility scripts
-├── logs/                     # Application logs
-├── requirements.txt          # Python dependencies
-├── Dockerfile                # Docker configuration
-├── LICENSE                   # MIT License
-└── README.md                 # This file
+│       └── script.js             # Frontend JavaScript
+├── tests/                        # Test files
+├── scripts/                      # Utility scripts
+├── logs/                         # Application logs
+├── requirements.txt              # Python dependencies
+├── Dockerfile                    # Docker configuration
+├── LICENSE                       # MIT License
+└── README.md                     # This file
 ```
 
 ## Usage
